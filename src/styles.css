@@ -1,0 +1,35 @@
+.breed-select {
+    margin-bottom: 20px;
+    padding: 5px;
+    font-size: 16px;
+    /* display: none; */
+}
+
+.loader {
+    display: none;
+}
+
+.error {
+    display: none;
+}
+
+.hide {
+    display: none;
+}
+
+.cat-info {
+    display: none;
+    max-width: 700px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.cat-info img {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.cat-info p {
+    margin: 5px 0;
+}
