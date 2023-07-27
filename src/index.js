@@ -21,8 +21,8 @@ fetchBreeds()
         breedsIdArr.push({text: item.name, value: item.id});
     });
     new SlimSelect({
-        select: select,
-        data: breedsIdArr
+        select,
+        data: breedsIdArr,
     });
     })
 .catch(onFetchError);
